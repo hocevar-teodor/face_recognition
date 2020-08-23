@@ -13,7 +13,6 @@ const LinkForm = ({ onInputChange, onButtonSubmit }) => {
                         className='f4 pa2 w-70 center' 
                         type='text' 
                         onChange={onInputChange}
-                        //onClick={onButtonSubmit}
                     />
                     <button 
                         onClick={onButtonSubmit}
